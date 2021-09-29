@@ -347,7 +347,7 @@ body._lock {
       top: 0;
       left: 0;
       height: 100%;
-      : 100%; }
+       width: 100%; }
 
 .main__image-slider .swiper-button-prev::after,
 .main__image-slider .swiper-button-next::after {
