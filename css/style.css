@@ -281,21 +281,13 @@ body._lock {
     display: -ms-grid;
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
     .main__grid_item {
       padding-bottom: 95%;
       border: 1px solid #fff;
       -webkit-box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
-    .main__grid_item:nth-child(7) {
-      -ms-grid-row: 3;
-      grid-row-start: 3;
-      -ms-grid-row-span: 2;
-      grid-row-end: 5;
-      -ms-grid-column: 1;
-      grid-column-start: 1;
-      -ms-grid-column-span: 2;
-      grid-column-end: 3; }
+
   .main__body {
     display: -ms-grid;
     display: grid;
